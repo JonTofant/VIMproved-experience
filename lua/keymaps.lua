@@ -8,7 +8,7 @@ vim.g.mapleader = ' '
 vim.api.nvim_set_keymap('n', '<leader>h', ':set hlsearch!<CR>',{ noremap = true, silent = true})
 
 -- making leader-e Lexplore
-vim.api.nvim_set_keymap('n', '<leader>e', ':NvimTreeToggle<CR>',{ noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<leader>e', ':NERDTreeToggle<CR>',{ noremap = true, silent = true})
 
 -- Making window movement 
 vim.api.nvim_set_keymap('n', '<C-h>', '<C-w>h',{silent = true})

@@ -69,6 +69,22 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["github-nvim-theme"] = {
+    loaded = true,
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\github-nvim-theme"
+  },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lualine.nvim"
+  },
+  nerdtree = {
+    loaded = true,
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nerdtree"
+  },
+  ["nvim-autopairs"] = {
+    loaded = true,
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-autopairs"
+  },
   ["nvim-compe"] = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-compe"
@@ -77,14 +93,22 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspconfig"
   },
-  ["nvim-tree.lua"] = {
+  ["nvim-web-devicons"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-tree.lua"
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = false,
     needs_bufread = false,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\opt\\packer.nvim"
+  },
+  ["vim-lsp"] = {
+    loaded = true,
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-lsp"
+  },
+  ["vim-lsp-settings"] = {
+    loaded = true,
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-lsp-settings"
   },
   ["vim-vsnip"] = {
     loaded = true,
