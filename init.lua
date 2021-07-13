@@ -3,6 +3,7 @@ require ('keymaps')
 require ('settings')
 require ('nv-compe')
 require ('language-servers')
+require ('plugins-config')
 
 --lualine requires
 require('lualine').setup ({
@@ -26,6 +27,5 @@ require("github-theme").setup({
 
 -- Add nvim-autopairs 
 require('nvim-autopairs').setup()
-
 
 

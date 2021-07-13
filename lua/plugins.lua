@@ -15,19 +15,25 @@ return require('packer').startup(function()
   -- Packer can manage itself
   use {'wbthomason/packer.nvim', opt = true}
 
-  --NERDTree
-  use 'preservim/nerdtree'
-
+  --/**************/
+  --/* BETTER LSP */
+  --/**************/
+  
   --lsp config
   use 'neovim/nvim-lspconfig'
   use 'hrsh7th/nvim-compe'
 
-  --easy lsp server install
-  use 'prabirshrestha/vim-lsp'
-  use 'mattn/vim-lsp-settings'
 
   --snip engine
   use 'hrsh7th/vim-vsnip'
+  
+
+
+  --NERDTree
+  use 'preservim/nerdtree'
+
+  --Terminal
+  use 'akinsho/nvim-toggleterm.lua'
 
   --lualine.nvim
   use {

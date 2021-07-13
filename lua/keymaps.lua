@@ -22,3 +22,6 @@ vim.api.nvim_set_keymap('v', '>', '>gv',{noremap = true, silent = true})
 
 --better way to save
 vim.api.nvim_set_keymap('n', '<C-s>', ':w<CR>',{noremap = true, silent = true})
+
+--Toggle terminal
+vim.api.nvim_set_keymap('n', '<C-t>', ':ToggleTerminal<CR>',{noremap = true, silent = true})
