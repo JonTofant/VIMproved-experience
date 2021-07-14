@@ -1,7 +1,7 @@
 --lualine requires
 require('lualine').setup ({
   options = {
-    theme = 'github',
+    theme = 'dracula',
     -- For round icons (require Nerd-Font)
     -- section_separators = {"", ""},
     -- component_separators = {"", ""},
