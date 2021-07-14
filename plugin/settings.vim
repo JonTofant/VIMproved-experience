@@ -8,5 +8,6 @@ autocmd FileType python nnoremap <buffer> <F5> <esc>:w<CR>:FloatermNew python %:
 autocmd FileType python inoremap <buffer> <F5> <esc>:w<CR>:FloatermNew python %:r.py<CR>
 
 autocmd FileType javascript nnoremap <F5> :FloatermNew node %:r.js<CR>
-autocmd FileType javascript inoremap <F5> <esc>:w<CR>:FloatermNew node %:r.js<CR>
+autocmd FileType javascript inoremap <F5> <esc> :w <CR> :FloatermNew node %:r.js<CR>
+""TODO ADD replt support for python and javascript https://github.com/voldikss/vim-floaterm#python
 
