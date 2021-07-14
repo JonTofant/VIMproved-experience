@@ -8,13 +8,13 @@ vim.g.mapleader = ' '
 vim.api.nvim_set_keymap('n', '<leader>h', ':set hlsearch!<CR>',{ noremap = true, silent = true})
 
 -- making leader-e Lexplore
-vim.api.nvim_set_keymap('n', '<leader>e', ':NERDTreeToggle<CR>',{ noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<leader>e', ':NvimTreeToggle<CR>',{ noremap = true, silent = true})
 
 -- Making window movement 
-vim.api.nvim_set_keymap('n', '<C-h>', '<C-w>h',{silent = true})
-vim.api.nvim_set_keymap('n', '<C-j>', '<C-w>j',{silent = true})
-vim.api.nvim_set_keymap('n', '<C-k>', '<C-w>k',{silent = true})
-vim.api.nvim_set_keymap('n', '<C-l>', '<C-w>l',{silent = true})
+vim.api.nvim_set_keymap('n', '<leader>h', '<C-w>h',{silent = true})
+vim.api.nvim_set_keymap('n', '<leader>j', '<C-w>j',{silent = true})
+vim.api.nvim_set_keymap('n', '<leader>k', '<C-w>k',{silent = true})
+vim.api.nvim_set_keymap('n', '<leader>l', '<C-w>l',{silent = true})
 
 -- Making better indentation
 vim.api.nvim_set_keymap('v', '<', '<gv',{noremap = true, silent = true})
@@ -25,3 +25,7 @@ vim.api.nvim_set_keymap('n', '<C-s>', ':w<CR>',{noremap = true, silent = true})
 
 --Toggle terminal
 vim.api.nvim_set_keymap('n', '<C-t>', ':ToggleTerminal<CR>',{noremap = true, silent = true})
+
+--buferline cycle through
+vim.api.nvim_set_keymap('n', '<C-h>', ':BufferLineCyclePrev<CR>',{noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<C-l>', ':BufferLineCycleNext<CR>',{noremap = true, silent = true})

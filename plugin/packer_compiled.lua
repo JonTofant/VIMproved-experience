@@ -69,6 +69,14 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["coc.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\coc.nvim"
+  },
+  ["dashboard-nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\dashboard-nvim"
+  },
   ["github-nvim-theme"] = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\github-nvim-theme"
@@ -77,38 +85,74 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lualine.nvim"
   },
-  nerdtree = {
-    loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nerdtree"
-  },
   ["nvim-autopairs"] = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-autopairs"
   },
-  ["nvim-compe"] = {
+  ["nvim-bufferline.lua"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-compe"
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-bufferline.lua"
+  },
+  ["nvim-dap"] = {
+    loaded = true,
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-dap"
+  },
+  ["nvim-jdtls"] = {
+    loaded = true,
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-jdtls"
+  },
+  ["nvim-lsp-installer"] = {
+    loaded = true,
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lsp-installer"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspconfig"
   },
-  ["nvim-lspinstall"] = {
-    loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspinstall"
-  },
   ["nvim-toggleterm.lua"] = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-toggleterm.lua"
+  },
+  ["nvim-tree.lua"] = {
+    loaded = true,
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-tree.lua"
+  },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-web-devicons"
   },
+  ["onedark.vim"] = {
+    loaded = true,
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\onedark.vim"
+  },
   ["packer.nvim"] = {
     loaded = false,
     needs_bufread = false,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\opt\\packer.nvim"
+  },
+  ["plenary.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim"
+  },
+  ["popup.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\popup.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim"
+  },
+  ["tokyonight.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\tokyonight.nvim"
+  },
+  vim = {
+    loaded = true,
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim"
   },
   ["vim-vsnip"] = {
     loaded = true,

@@ -21,16 +21,29 @@ return require('packer').startup(function()
   
   --lsp config
   use 'neovim/nvim-lspconfig'
-  use 'hrsh7th/nvim-compe'
+ -- use 'hrsh7th/nvim-compe'
+  use 'mfussenegger/nvim-jdtls'
 
+  --Language-client neovim
+  use 'neoclide/coc.nvim'
 
   --snip engine
   use 'hrsh7th/vim-vsnip'
-  
 
+  --atempt to make easier lsp install
+  use 'williamboman/nvim-lsp-installer'
+
+  --Tree sitter
+  use 'nvim-treesitter/nvim-treesitter'
+      
+  --icons
+  use 'kyazdani42/nvim-web-devicons'
 
   --NERDTree
-  use 'preservim/nerdtree'
+  --use 'preservim/nerdtree'
+
+  --Nvim Tree
+  use 'kyazdani42/nvim-tree.lua'
 
   --Terminal
   use 'akinsho/nvim-toggleterm.lua'
@@ -40,10 +53,32 @@ return require('packer').startup(function()
     'hoob3rt/lualine.nvim',
       requires = {'kyazdani42/nvim-web-devicons', opt = true}
       }
+    --TODO Galaxyline evil mode
+    --TODO emmet for coc
+
+  --bufferline
+  use {'akinsho/nvim-bufferline.lua', requires = 'kyazdani42/nvim-web-devicons'}
 
   --theme
   use 'projekt0n/github-nvim-theme'
+  use 'folke/tokyonight.nvim'
+  use 'joshdick/onedark.vim'
+  use 'dracula/vim'
 
   --auto pairs
   use 'windwp/nvim-autopairs'
+
+  --Dashboard
+  use 'glepnir/dashboard-nvim'
+
+  --telescope
+  use {
+  'nvim-telescope/telescope.nvim',
+  requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
+  }
+
+  --debuger
+  use 'mfussenegger/nvim-dap'
+
+
 end)
