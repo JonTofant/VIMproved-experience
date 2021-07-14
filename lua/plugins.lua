@@ -64,7 +64,7 @@ return require('packer').startup(function()
   use 'dracula/vim'
 
   --auto pairs
-  use 'windwp/nvim-autopairs'
+  use 'jiangmiao/auto-pairs'
 
   --Dashboard
   use 'glepnir/dashboard-nvim'

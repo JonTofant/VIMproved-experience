@@ -1,4 +1,3 @@
-require('nvim-autopairs').setup()
 require'nvim-web-devicons'.get_icons()
 
 --required for bufferline
