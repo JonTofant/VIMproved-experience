@@ -27,6 +27,9 @@ return require('packer').startup(function()
   --Language-client neovim
   use 'neoclide/coc.nvim'
 
+  --syntax highlight
+  use 'sheerun/vim-polyglot'
+
   --snip engine
   use 'hrsh7th/vim-vsnip'
 
