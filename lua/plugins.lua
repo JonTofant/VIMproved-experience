@@ -42,9 +42,12 @@ return require('packer').startup(function()
 
   --Tree sitter
   use 'nvim-treesitter/nvim-treesitter'
-      
+   
   --icons
   use 'kyazdani42/nvim-web-devicons'
+  
+  --indent blank lines
+  use "lukas-reineke/indent-blankline.nvim"
 
   --NERDTree
   --use 'preservim/nerdtree'
@@ -53,7 +56,7 @@ return require('packer').startup(function()
   use 'kyazdani42/nvim-tree.lua'
 
   --Terminal
-  use 'akinsho/nvim-toggleterm.lua'
+  use 'voldikss/vim-floaterm'
 
   --lualine.nvim
   use {

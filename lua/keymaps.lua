@@ -23,9 +23,11 @@ vim.api.nvim_set_keymap('v', '>', '>gv',{noremap = true, silent = true})
 --better way to save
 vim.api.nvim_set_keymap('n', '<C-s>', ':w<CR>',{noremap = true, silent = true})
 
---Toggle terminal
-vim.api.nvim_set_keymap('n', '<C-t>', ':ToggleTerminal<CR>',{noremap = true, silent = true})
-
 --buferline cycle through
 vim.api.nvim_set_keymap('n', '<C-h>', ':BufferLineCyclePrev<CR>',{noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<C-l>', ':BufferLineCycleNext<CR>',{noremap = true, silent = true})
+
+--Toggle terminal
+vim.api.nvim_set_keymap('n', '<C-t>', ':ToggleTerm<CR>',{noremap = true, silent = true})
+
+
