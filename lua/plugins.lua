@@ -54,7 +54,6 @@ return require('packer').startup(function()
       requires = {'kyazdani42/nvim-web-devicons', opt = true}
       }
     --TODO Galaxyline evil mode
-    --TODO emmet for coc
 
   --bufferline
   use {'akinsho/nvim-bufferline.lua', requires = 'kyazdani42/nvim-web-devicons'}

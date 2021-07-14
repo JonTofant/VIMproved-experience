@@ -4,8 +4,8 @@ vim.api.nvim_set_keymap('n','<space>','<NOP>',{noremap = true, silent = true})
 -- Making space mapleader
 vim.g.mapleader = ' '
 
--- Making leader-h remove highlights 
-vim.api.nvim_set_keymap('n', '<leader>h', ':set hlsearch!<CR>',{ noremap = true, silent = true})
+-- Making leader-H remove highlights 
+vim.api.nvim_set_keymap('n', '<leader>H', ':set hlsearch!<CR>',{ noremap = true, silent = true})
 
 -- making leader-e Lexplore
 vim.api.nvim_set_keymap('n', '<leader>e', ':NvimTreeToggle<CR>',{ noremap = true, silent = true})
