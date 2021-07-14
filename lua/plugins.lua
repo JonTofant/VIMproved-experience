@@ -29,6 +29,10 @@ return require('packer').startup(function()
 
   --syntax highlight
   use 'sheerun/vim-polyglot'
+  --linting
+  --use 'dense-analysis/ale'
+  --Fomrating
+  use 'prettier/vim-prettier'
 
   --snip engine
   use 'hrsh7th/vim-vsnip'
