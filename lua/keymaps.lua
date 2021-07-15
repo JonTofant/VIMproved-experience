@@ -30,4 +30,3 @@ vim.api.nvim_set_keymap('n', '<C-l>', ':BufferLineCycleNext<CR>',{noremap = true
 --Toggle terminal
 vim.api.nvim_set_keymap('n', '<C-t>', ':ToggleTerm<CR>',{noremap = true, silent = true})
 
-

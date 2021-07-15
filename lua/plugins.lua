@@ -85,5 +85,8 @@ return require('packer').startup(function()
   --debuger
   use 'mfussenegger/nvim-dap'
 
+  --easy motions- beter move around
+  use 'easymotion/vim-easymotion'
+
 
 end)

@@ -11,3 +11,8 @@ autocmd FileType javascript nnoremap <F5> :FloatermNew node %:r.js<CR>
 autocmd FileType javascript inoremap <F5> <esc> :w <CR> :FloatermNew node %:r.js<CR>
 ""TODO ADD replt support for python and javascript https://github.com/voldikss/vim-floaterm#python
 
+""Keymaps foe easymotion
+""Overwindows search with s
+nmap s <Plug>(easymotion-overwin-f)
+map  <Leader>w <Plug>(easymotion-bd-w)
+
