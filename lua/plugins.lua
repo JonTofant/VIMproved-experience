@@ -88,5 +88,8 @@ return require('packer').startup(function()
   --easy motions- beter move around
   use 'easymotion/vim-easymotion'
 
+  --Git
+  use 'tpope/vim-fugitive'
+
 
 end)
