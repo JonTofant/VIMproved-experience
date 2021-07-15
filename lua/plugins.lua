@@ -46,8 +46,10 @@ return require('packer').startup(function()
   --icons
   use 'kyazdani42/nvim-web-devicons'
   
-  --NERDTree
+  --NERDTree (currently using nvim-tree)
   --use 'preservim/nerdtree'
+
+  use'/Yggdroot/indentLine'
 
   --Nvim Tree
   use 'kyazdani42/nvim-tree.lua'
@@ -90,7 +92,6 @@ return require('packer').startup(function()
 
   --Git
   use 'tpope/vim-fugitive'
-  --testing fugitive
 
 
 end)
