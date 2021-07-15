@@ -46,9 +46,6 @@ return require('packer').startup(function()
   --icons
   use 'kyazdani42/nvim-web-devicons'
   
-  --indent blank lines
-  use "lukas-reineke/indent-blankline.nvim"
-
   --NERDTree
   --use 'preservim/nerdtree'
 
