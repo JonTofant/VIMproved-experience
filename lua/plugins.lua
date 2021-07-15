@@ -29,6 +29,7 @@ return require('packer').startup(function()
 
   --syntax highlight
   use 'sheerun/vim-polyglot'
+
   --linting
   --use 'dense-analysis/ale'
   --Fomrating
@@ -49,7 +50,7 @@ return require('packer').startup(function()
   --NERDTree (currently using nvim-tree)
   --use 'preservim/nerdtree'
 
-  use'/Yggdroot/indentLine'
+  use'Yggdroot/indentLine'
 
   --Nvim Tree
   use 'kyazdani42/nvim-tree.lua'
