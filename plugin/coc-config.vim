@@ -39,4 +39,7 @@ autocmd CursorHold * silent call CocActionAsync('highlight')
 nmap <leader>rn <Plug>(coc-rename)
 command! -nargs=0 Format :call CocAction('format')
 
-let g:coc_global_extensions = ['coc-yank', 'coc-vimlsp', 'coc-ultisnips', 'coc-tabnine', 'coc-snippets', 'coc-prettier', 'coc-html', 'coc-eslint', 'coc-emmet', 'coc-tsserver', 'coc-pyright', 'coc-json', 'coc-css', 'coc-clangd', 'coc-highlight']
+""Moves through snippets with tab
+let g:coc_snippet_next = '<tab>'
+
+let g:coc_global_extensions = ['coc-yank', 'coc-vimlsp', 'coc-ultisnips', 'coc-tabnine', 'coc-prettier', 'coc-html', 'coc-eslint', 'coc-emmet', 'coc-tsserver', 'coc-pyright', 'coc-json', 'coc-css', 'coc-clangd', 'coc-highlight']

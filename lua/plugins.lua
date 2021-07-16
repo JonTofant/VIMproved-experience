@@ -36,7 +36,7 @@ return require('packer').startup(function()
   use 'prettier/vim-prettier'
 
   --snip engine
-  use 'hrsh7th/vim-vsnip'
+  use 'honza/vim-snippets'
 
   --atempt to make easier lsp install
   use 'williamboman/nvim-lsp-installer'
