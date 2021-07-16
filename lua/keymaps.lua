@@ -34,5 +34,3 @@ vim.api.nvim_set_keymap('n', '<C-t>', ':ToggleTerm<CR>',{noremap = true, silent 
 vim.api.nvim_set_keymap('n', '<leader>tf', ':Telescope find_files<CR>',{noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<leader>tg', ':Telescope git_status<CR>',{noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<leader>tw', ':Telescope current_buffer_fuzzy_find<CR>',{noremap = true, silent = true})
-
---kr en test
