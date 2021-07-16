@@ -1,7 +1,6 @@
 require ('plugins')
 require ('keymaps')
 require ('settings')
-require ('language-servers')
 require ('plugins-config')
 
 --Plugins config
