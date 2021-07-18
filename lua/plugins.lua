@@ -95,14 +95,17 @@ return require('packer').startup(function()
   requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
   }
 
-  --debuger
-  use 'mfussenegger/nvim-dap'
 
   --easy motions- beter move around
   use 'easymotion/vim-easymotion'
 
   --Git
   use 'tpope/vim-fugitive'
+
+
+  --autosave
+  use "Pocco81/AutoSave.nvim"
+
 
 
 end)
