@@ -14,4 +14,5 @@ require ('plugins-config/treesitter')
 require ('plugins-config/gruvbox')
 require ('plugins-config/registers')
 require ('plugins-config/auto-save')
+require ('plugins-config/formatter')
 

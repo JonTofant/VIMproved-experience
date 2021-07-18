@@ -39,8 +39,9 @@ return require('packer').startup(function()
 
   --linting
   --use 'dense-analysis/ale'
-  --Fomrating
-  use 'prettier/vim-prettier'
+  --Formating
+  use 'lukas-reineke/format.nvim'
+  
 
   --snip engine
   use 'honza/vim-snippets'

@@ -16,3 +16,4 @@ autocmd FileType javascript inoremap <F5> <esc> :w <CR> :FloatermNew node %:r.js
 nmap s <Plug>(easymotion-overwin-f)
 map  <Leader>w <Plug>(easymotion-bd-w)
 
+
