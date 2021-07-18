@@ -26,9 +26,14 @@ return require('packer').startup(function()
 
   --Language-client neovim
   use 'neoclide/coc.nvim'
+  use 'kabouzeid/nvim-lspinstall'
 
   --syntax highlight
-  use 'sheerun/vim-polyglot'
+  --use 'sheerun/vim-polyglot'
+
+  --Tree sitter
+  use 'nvim-treesitter/nvim-treesitter'
+   
 
   --linting
   --use 'dense-analysis/ale'
@@ -41,9 +46,6 @@ return require('packer').startup(function()
   --atempt to make easier lsp install
   use 'williamboman/nvim-lsp-installer'
 
-  --Tree sitter
-  use 'nvim-treesitter/nvim-treesitter'
-   
   --icons
   use 'kyazdani42/nvim-web-devicons'
   
@@ -72,6 +74,8 @@ return require('packer').startup(function()
   use 'folke/tokyonight.nvim'
   use 'joshdick/onedark.vim'
   use 'dracula/vim'
+  use { "briones-gabriel/darcula-solid.nvim", requires = "rktjmp/lush.nvim" }
+
 
   --auto pairs
   use 'jiangmiao/auto-pairs'

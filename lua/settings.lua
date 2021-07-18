@@ -11,4 +11,5 @@ vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 
 --Theme
-vim.cmd[[colorscheme dracula]]
+vim.cmd[[colorscheme darcula-solid]]
+vim.cmd 'set termguicolors'

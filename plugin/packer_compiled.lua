@@ -77,6 +77,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\coc.nvim"
   },
+  ["darcula-solid.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\darcula-solid.nvim"
+  },
   ["dashboard-nvim"] = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\dashboard-nvim"
@@ -92,6 +96,10 @@ _G.packer_plugins = {
   ["lualine.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lualine.nvim"
+  },
+  ["lush.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lush.nvim"
   },
   ["nvim-bufferline.lua"] = {
     loaded = true,
@@ -112,6 +120,10 @@ _G.packer_plugins = {
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspconfig"
+  },
+  ["nvim-lspinstall"] = {
+    loaded = true,
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspinstall"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
@@ -165,10 +177,6 @@ _G.packer_plugins = {
   ["vim-fugitive"] = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-fugitive"
-  },
-  ["vim-polyglot"] = {
-    loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-polyglot"
   },
   ["vim-prettier"] = {
     loaded = true,
