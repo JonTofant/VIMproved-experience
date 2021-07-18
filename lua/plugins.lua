@@ -78,6 +78,9 @@ return require('packer').startup(function()
   use 'joshdick/onedark.vim'
   use 'dracula/vim'
   use { "briones-gabriel/darcula-solid.nvim", requires = "rktjmp/lush.nvim" }
+  use {"npxbr/gruvbox.nvim", requires = {"rktjmp/lush.nvim"}}
+  use 'navarasu/onedark.nvim'
+
 
 
   --auto pairs

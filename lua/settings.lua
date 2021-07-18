@@ -11,5 +11,6 @@ vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 
 --Theme
-vim.cmd[[colorscheme darcula-solid]]
+vim.g.onedark_style = 'dark'
+require('onedark').setup()
 vim.cmd 'set termguicolors'
