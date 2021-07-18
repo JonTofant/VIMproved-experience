@@ -33,6 +33,8 @@ return require('packer').startup(function()
 
   --Tree sitter
   use 'nvim-treesitter/nvim-treesitter'
+  use 'nvim-treesitter/playground'
+  use 'nvim-treesitter/nvim-treesitter-refactor'
    
 
   --linting
@@ -52,6 +54,7 @@ return require('packer').startup(function()
   --NERDTree (currently using nvim-tree)
   --use 'preservim/nerdtree'
 
+  --Adding and indent line
   use'Yggdroot/indentLine'
 
   --Nvim Tree
