@@ -10,4 +10,5 @@ require ('plugins-config/lualine')
 require ('plugins-config/dashboard')
 require ('plugins-config/nvimTree')
 require ('plugins-config/theme')
+require ('plugins-config/treesitter')
 
