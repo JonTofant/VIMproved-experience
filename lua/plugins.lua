@@ -32,7 +32,10 @@ return require('packer').startup(function()
   --use 'sheerun/vim-polyglot'
 
   --Tree sitter
-  use 'nvim-treesitter/nvim-treesitter'
+  use {
+    'nvim-treesitter/nvim-treesitter',
+    run = 'TSUpdate'
+  }
   use 'nvim-treesitter/playground'
   use 'nvim-treesitter/nvim-treesitter-refactor'
    
