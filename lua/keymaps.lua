@@ -36,6 +36,7 @@ vim.api.nvim_set_keymap('n', '<leader>fg', ':Telescope git_status<CR>',{noremap 
 vim.api.nvim_set_keymap('n', '<leader>fw', ':Telescope current_buffer_fuzzy_find<CR>',{noremap = true, silent = true})
 
 --Git
-vim.api.nvim_set_keymap('n', '<leader>gs', ':vsp<CR> :Gina status<CR>',{noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<leader>gs', ':vsp<CR>:Gina status<CR>',{noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<leader>gc', ':Gina commit<CR>',{noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<leader>gp', ':Gina push<CR>',{noremap = true, silent = true})
+--git test
