@@ -93,6 +93,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\format.nvim"
   },
+  ["gina.vim"] = {
+    loaded = true,
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gina.vim"
+  },
   ["github-nvim-theme"] = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\github-nvim-theme"
@@ -186,10 +190,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim"
   },
-  ["vim-codefmt"] = {
-    loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-codefmt"
-  },
   ["vim-easymotion"] = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-easymotion"
@@ -197,18 +197,6 @@ _G.packer_plugins = {
   ["vim-floaterm"] = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-floaterm"
-  },
-  ["vim-fugitive"] = {
-    loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-fugitive"
-  },
-  ["vim-glaive"] = {
-    loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-glaive"
-  },
-  ["vim-maktaba"] = {
-    loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-maktaba"
   },
   ["vim-snippets"] = {
     loaded = true,

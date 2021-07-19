@@ -101,7 +101,9 @@ return require('packer').startup(function()
   use 'easymotion/vim-easymotion'
 
   --Git
-  use 'tpope/vim-fugitive'
+  --use 'tpope/vim-fugitive'
+  --use { 'TimUntersberger/neogit', requires = 'nvim-lua/plenary.nvim' }
+  use 'lambdalisue/gina.vim'
 
 
   --autosave
