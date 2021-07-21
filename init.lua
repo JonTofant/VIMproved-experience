@@ -1,7 +1,6 @@
 require ('plugins')
 require ('keymaps')
 require ('settings')
-require ('plugins-config')
 
 --Plugins config
 require ('plugins-config/autopairs')
