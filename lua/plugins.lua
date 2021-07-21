@@ -111,6 +111,9 @@ return require('packer').startup(function()
   --autosave
   use "Pocco81/AutoSave.nvim"
 
+  --lua development
+  use 'svermeulen/vimpeccable'
+
 
 
 end)

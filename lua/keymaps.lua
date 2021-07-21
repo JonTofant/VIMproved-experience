@@ -31,6 +31,7 @@ vim.api.nvim_set_keymap('n', '<leader>3', '<C-^>',{noremap = true, silent = true
 --Toggle terminal
 vim.api.nvim_set_keymap('n', '<C-t>', ':FloatermToggle<CR>',{noremap = true, silent = true})
 
+
 --Telescope
 vim.api.nvim_set_keymap('n', '<leader>ff', ':Telescope find_files<CR>',{noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<leader>fg', ':Telescope git_status<CR>',{noremap = true, silent = true})
@@ -40,3 +41,38 @@ vim.api.nvim_set_keymap('n', '<leader>fw', ':Telescope current_buffer_fuzzy_find
 vim.api.nvim_set_keymap('n', '<leader>gs', ':vsp<CR>:Gina status<CR>',{noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<leader>gc', ':Gina commit<CR>',{noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<leader>gp', ':Gina push<CR>',{noremap = true, silent = true})
+
+local vimp = require 'vimp'
+vimp.nmap('s', '<Plug>(easymotion-overwin-f2)')
+
+--remap to run files
+
+vimp.nnoremap('<C-c>',function()
+--cpp
+  if (vim.bo.filetype)=='cpp' then
+    vim.api.nvim_command('!g++ -o  %:r.out %')
+  end
+end)
+
+vimp.nnoremap('<F5>',function()
+
+  --cpp
+  if (vim.bo.filetype)=='cpp' then
+    vim.api.nvim_command('!g++ -o  %:r.out %')
+    vim.api.nvim_command('FloatermNew %:r.out')
+  end
+
+  --python
+  if (vim.bo.filetype)=='python' then
+    vim.api.nvim_command('FloatermNew python %:r.py')
+  end
+
+  --javascript
+  if (vim.bo.filetype)=='javascript' then
+    vim.api.nvim_command('FloatermNew node %:r.js')
+  end
+
+end)
+
+
+

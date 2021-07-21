@@ -193,6 +193,10 @@ _G.packer_plugins = {
   ["vim-one"] = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-one"
+  },
+  vimpeccable = {
+    loaded = true,
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vimpeccable"
   }
 }
 
