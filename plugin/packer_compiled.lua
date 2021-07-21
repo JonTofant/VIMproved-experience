@@ -157,10 +157,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\onedark.nvim"
   },
-  ["onedark.vim"] = {
-    loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\onedark.vim"
-  },
   ["packer.nvim"] = {
     loaded = false,
     needs_bufread = false,
@@ -182,10 +178,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim"
   },
-  ["tokyonight.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\tokyonight.nvim"
-  },
   vim = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim"
@@ -198,9 +190,9 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-floaterm"
   },
-  ["vim-snippets"] = {
+  ["vim-one"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-snippets"
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-one"
   }
 }
 

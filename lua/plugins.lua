@@ -46,8 +46,8 @@ return require('packer').startup(function()
   use 'lukas-reineke/format.nvim'
   
 
-  --snip engine
-  use 'honza/vim-snippets'
+  --snip engine and snippets
+  --use 'honza/vim-snippets'
 
   --atempt to make easier lsp install
   use 'williamboman/nvim-lsp-installer'
@@ -78,12 +78,11 @@ return require('packer').startup(function()
 
   --theme
   use 'projekt0n/github-nvim-theme'
-  use 'folke/tokyonight.nvim'
-  use 'joshdick/onedark.vim'
   use 'dracula/vim'
   use { "briones-gabriel/darcula-solid.nvim", requires = "rktjmp/lush.nvim" }
   use {"npxbr/gruvbox.nvim", requires = {"rktjmp/lush.nvim"}}
   use 'navarasu/onedark.nvim'
+  use 'rakr/vim-one'
 
 
 

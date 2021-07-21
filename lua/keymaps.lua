@@ -7,7 +7,7 @@ vim.g.mapleader = ' '
 -- Making leader-H remove highlights 
 vim.api.nvim_set_keymap('n', '<leader>H', ':set hlsearch!<CR>',{ noremap = true, silent = true})
 
--- making leader-e Lexplore
+-- making leader-e open Tree
 vim.api.nvim_set_keymap('n', '<leader>e', ':NvimTreeToggle<CR>',{ noremap = true, silent = true})
 
 -- Making window movement 
@@ -26,9 +26,10 @@ vim.api.nvim_set_keymap('n', '<C-s>', ':w<CR>',{noremap = true, silent = true})
 --buferline cycle through
 vim.api.nvim_set_keymap('n', '<C-h>', ':BufferLineCyclePrev<CR>',{noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<C-l>', ':BufferLineCycleNext<CR>',{noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<leader>3', '<C-^>',{noremap = true, silent = true})
 
 --Toggle terminal
-vim.api.nvim_set_keymap('n', '<C-t>', ':ToggleTerm<CR>',{noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<C-t>', ':FloatermToggle<CR>',{noremap = true, silent = true})
 
 --Telescope
 vim.api.nvim_set_keymap('n', '<leader>ff', ':Telescope find_files<CR>',{noremap = true, silent = true})
