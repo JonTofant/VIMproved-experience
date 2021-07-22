@@ -21,12 +21,14 @@ return require('packer').startup(function()
   
   --lsp config
   use 'neovim/nvim-lspconfig'
- -- use 'hrsh7th/nvim-compe'
+  use 'hrsh7th/nvim-compe'
   use 'mfussenegger/nvim-jdtls'
+  use 'williamboman/nvim-lsp-installer'
+  use 'jose-elias-alvarez/nvim-lsp-ts-utils'
+
 
   --Language-client neovim
-  use 'neoclide/coc.nvim'
-  use 'kabouzeid/nvim-lspinstall'
+  --use 'neoclide/coc.nvim'
 
   --syntax highlight
   --use 'sheerun/vim-polyglot'
@@ -47,10 +49,10 @@ return require('packer').startup(function()
   
 
   --snip engine and snippets
-  --use 'honza/vim-snippets'
+	use 'hrsh7th/vim-vsnip'
+  use 'hrsh7th/vim-vsnip-integ'
+  use "rafamadriz/friendly-snippets"
 
-  --atempt to make easier lsp install
-  use 'williamboman/nvim-lsp-installer'
 
   --icons
   use 'kyazdani42/nvim-web-devicons'
@@ -87,8 +89,7 @@ return require('packer').startup(function()
 
 
   --auto pairs
-  use 'jiangmiao/auto-pairs'
-
+  use 'windwp/nvim-autopairs'
   --Dashboard
   use 'glepnir/dashboard-nvim'
 
@@ -96,6 +97,9 @@ return require('packer').startup(function()
   use {
   'nvim-telescope/telescope.nvim',
   requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
+  }
+  use {
+    'liuchengxu/vim-clap',
   }
 
 

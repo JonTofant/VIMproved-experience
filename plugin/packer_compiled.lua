@@ -73,14 +73,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\AutoSave.nvim"
   },
-  ["auto-pairs"] = {
-    loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\auto-pairs"
-  },
-  ["coc.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\coc.nvim"
-  },
   ["darcula-solid.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\darcula-solid.nvim"
@@ -92,6 +84,10 @@ _G.packer_plugins = {
   ["format.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\format.nvim"
+  },
+  ["friendly-snippets"] = {
+    loaded = true,
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\friendly-snippets"
   },
   ["gina.vim"] = {
     loaded = true,
@@ -117,9 +113,17 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lush.nvim"
   },
+  ["nvim-autopairs"] = {
+    loaded = true,
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-autopairs"
+  },
   ["nvim-bufferline.lua"] = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-bufferline.lua"
+  },
+  ["nvim-compe"] = {
+    loaded = true,
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-compe"
   },
   ["nvim-jdtls"] = {
     loaded = true,
@@ -129,13 +133,13 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lsp-installer"
   },
+  ["nvim-lsp-ts-utils"] = {
+    loaded = true,
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lsp-ts-utils"
+  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspconfig"
-  },
-  ["nvim-lspinstall"] = {
-    loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspinstall"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
@@ -182,6 +186,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim"
   },
+  ["vim-clap"] = {
+    loaded = true,
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-clap"
+  },
   ["vim-easymotion"] = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-easymotion"
@@ -193,6 +201,14 @@ _G.packer_plugins = {
   ["vim-one"] = {
     loaded = true,
     path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-one"
+  },
+  ["vim-vsnip"] = {
+    loaded = true,
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-vsnip"
+  },
+  ["vim-vsnip-integ"] = {
+    loaded = true,
+    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-vsnip-integ"
   },
   vimpeccable = {
     loaded = true,

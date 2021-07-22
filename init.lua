@@ -11,7 +11,9 @@ require ('plugins-config/gruvbox')
 require ('plugins-config/auto-save')
 require ('plugins-config/formatter')
 require ('plugins-config/indent-line')
---broken require ('plugins-config/lsp-install')
+require ('plugins-config/autopairs')
+require ('plugins-config/init')
+require ('nv-compe/compe')
+require ('nvim_lsp/init')
 --Vim source
-vim.cmd('source ~/appdata/local/nvim/coc-config.vim')
-
+--vim.cmd('source ~/appdata/local/nvim/coc-config.vim')

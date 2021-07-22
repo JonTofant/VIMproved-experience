@@ -42,4 +42,4 @@ command! -nargs=0 Format :call CocAction('format')
 ""Moves through snippets with tab
 let g:coc_snippet_next = '<tab>'
 
-let g:coc_global_extensions = ['coc-yank', 'coc-vimlsp', 'coc-ultisnips', 'coc-tabnine', 'coc-prettier', 'coc-html', 'coc-eslint', 'coc-emmet', 'coc-tsserver', 'coc-pyright', 'coc-json', 'coc-css', 'coc-clangd', 'coc-highlight']
+let g:coc_global_extensions = ['coc-yank', 'coc-vimlsp', 'coc-ultisnips', 'coc-tabnine', 'coc-prettier', 'coc-html', 'coc-eslint', 'coc-emmet', 'coc-tsserver', 'coc-pyright', 'coc-json', 'coc-css', 'coc-clangd']
