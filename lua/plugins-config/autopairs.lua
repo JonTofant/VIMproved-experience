@@ -1,7 +1,7 @@
 require('nvim-autopairs').setup({
   disable_filetype = { "TelescopePrompt" , "vim" },
 	ignored_next_char = "[%w%.]", -- will ignore alphanumeric and `.` symbol
-	enable_check_bracket_line = false
+	enable_check_bracket_line = true 
 
 })
 
