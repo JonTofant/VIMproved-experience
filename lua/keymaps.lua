@@ -73,6 +73,3 @@ vimp.nnoremap('<F5>',function()
   end
 
 end)
-
-
-

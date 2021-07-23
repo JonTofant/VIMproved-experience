@@ -23,8 +23,9 @@ return require('packer').startup(function()
   use 'neovim/nvim-lspconfig'
   use 'hrsh7th/nvim-compe'
   use 'mfussenegger/nvim-jdtls'
-  use 'williamboman/nvim-lsp-installer'
   use 'jose-elias-alvarez/nvim-lsp-ts-utils'
+  use 'prabirshrestha/vim-lsp'
+  use 'mattn/vim-lsp-settings'
 
 
   --Language-client neovim

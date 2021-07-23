@@ -1,12 +1,4 @@
---require '/nvim_lsp/tsserver'
---require '/nvim_lsp/python'
---require '/nvim_lsp/clang'
---require '/nvim_lsp/emmet'
---require '/nvim_lsp/css'
---require '/nvim_lsp/html'
-
 local nvim_lsp = require('lspconfig')
-
 
 -- Use an on_attach function to only map the following keys
 -- after the language server attaches to the current buffer
@@ -40,10 +32,11 @@ local on_attach = function(client, bufnr)
   buf_set_keymap("n", "<space>f", "<cmd>lua vim.lsp.buf.formatting()<CR>", opts)
 
 end
-
+local capabilities = vim.lsp.protocol.make_client_capabilities()
+capabilities.textDocument.completion.completionItem.snippetSupport = true
 -- Use a loop to conveniently call 'setup' on multiple servers and
 -- map buffer local keybindings when the language server attaches
-local servers = { "pyright",  "tsserver" ,"clangd"}
+local servers = { "pyright", "clangd", "tsserver", "cssls"}
 for _, lsp in ipairs(servers) do
   nvim_lsp[lsp].setup {
     on_attach = on_attach,
