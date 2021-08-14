@@ -44,8 +44,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "C:\\Users\\Jon\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\share\\lua\\5.1\\?.lua;C:\\Users\\Jon\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\share\\lua\\5.1\\?\\init.lua;C:\\Users\\Jon\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\lib\\luarocks\\rocks-5.1\\?.lua;C:\\Users\\Jon\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\lib\\luarocks\\rocks-5.1\\?\\init.lua"
-local install_cpath_pattern = "C:\\Users\\Jon\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\lib\\lua\\5.1\\?.so"
+local package_path_str = "/home/jon/.cache/nvim/packer_hererocks/2.0.5/share/lua/5.1/?.lua;/home/jon/.cache/nvim/packer_hererocks/2.0.5/share/lua/5.1/?/init.lua;/home/jon/.cache/nvim/packer_hererocks/2.0.5/lib/luarocks/rocks-5.1/?.lua;/home/jon/.cache/nvim/packer_hererocks/2.0.5/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/jon/.cache/nvim/packer_hererocks/2.0.5/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -71,148 +71,156 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   ["AutoSave.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\AutoSave.nvim"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/AutoSave.nvim"
   },
   ["darcula-solid.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\darcula-solid.nvim"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/darcula-solid.nvim"
   },
   ["dashboard-nvim"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\dashboard-nvim"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/dashboard-nvim"
   },
   ["format.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\format.nvim"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/format.nvim"
   },
   ["friendly-snippets"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\friendly-snippets"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/friendly-snippets"
   },
   ["gina.vim"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gina.vim"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/gina.vim"
   },
   ["github-nvim-theme"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\github-nvim-theme"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/github-nvim-theme"
   },
   ["gruvbox.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gruvbox.nvim"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/gruvbox.nvim"
   },
   indentLine = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\indentLine"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/indentLine"
   },
   ["lualine.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lualine.nvim"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/lualine.nvim"
   },
   ["lush.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lush.nvim"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/lush.nvim"
   },
   ["nvim-autopairs"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-autopairs"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/nvim-autopairs"
   },
   ["nvim-bufferline.lua"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-bufferline.lua"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/nvim-bufferline.lua"
   },
   ["nvim-compe"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-compe"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/nvim-compe"
   },
   ["nvim-jdtls"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-jdtls"
-  },
-  ["nvim-lsp-installer"] = {
-    loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lsp-installer"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/nvim-jdtls"
   },
   ["nvim-lsp-ts-utils"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lsp-ts-utils"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/nvim-lsp-ts-utils"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspconfig"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
+  },
+  ["nvim-transparent"] = {
+    loaded = true,
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/nvim-transparent"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-tree.lua"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/nvim-treesitter"
   },
   ["nvim-treesitter-refactor"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter-refactor"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/nvim-treesitter-refactor"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-web-devicons"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/nvim-web-devicons"
   },
   ["onedark.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\onedark.nvim"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/onedark.nvim"
   },
   ["packer.nvim"] = {
     loaded = false,
     needs_bufread = false,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\opt\\packer.nvim"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/opt/packer.nvim"
   },
   playground = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\playground"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/playground"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/plenary.nvim"
   },
   ["popup.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\popup.nvim"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/popup.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/telescope.nvim"
   },
   vim = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/vim"
   },
   ["vim-clap"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-clap"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/vim-clap"
   },
   ["vim-easymotion"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-easymotion"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/vim-easymotion"
   },
   ["vim-floaterm"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-floaterm"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/vim-floaterm"
+  },
+  ["vim-lsp"] = {
+    loaded = true,
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/vim-lsp"
+  },
+  ["vim-lsp-settings"] = {
+    loaded = true,
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/vim-lsp-settings"
   },
   ["vim-one"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-one"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/vim-one"
   },
   ["vim-vsnip"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-vsnip"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/vim-vsnip"
   },
   ["vim-vsnip-integ"] = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-vsnip-integ"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/vim-vsnip-integ"
   },
   vimpeccable = {
     loaded = true,
-    path = "C:\\Users\\Jon\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vimpeccable"
+    path = "/home/jon/.local/share/nvim/site/pack/packer/start/vimpeccable"
   }
 }
 

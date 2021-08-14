@@ -86,6 +86,7 @@ return require('packer').startup(function()
   use {"npxbr/gruvbox.nvim", requires = {"rktjmp/lush.nvim"}}
   use 'navarasu/onedark.nvim'
   use 'rakr/vim-one'
+  use 'xiyaowong/nvim-transparent'
 
 
 

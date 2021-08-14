@@ -15,5 +15,6 @@ require ('plugins-config/autopairs')
 require ('plugins-config/init')
 require ('nv-compe/compe')
 require ('nvim_lsp/init')
+require ('plugins-config/transparent')
 --Vim source
 --vim.cmd('source ~/appdata/local/nvim/coc-config.vim')
